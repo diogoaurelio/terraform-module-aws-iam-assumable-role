@@ -17,11 +17,7 @@ Generic repository for a terraform module for AWS IAM user assumable roles
 
 # Intro
 
-Module to create a AWS IAM user module with the following details:
-- maximum one aws iam user per instantiation
-- configures the user's password policy
-- configures the user access key
-- associates a policy allowing user to update for his own account his credentials
+Module to create a AWS IAM role that can be assumable by users
 
 
 # Usage
